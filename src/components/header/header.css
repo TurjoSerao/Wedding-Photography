@@ -1,0 +1,42 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.left-menu {
+  justify-content: flex-start;
+}
+
+.right-menu {
+  justify-content: flex-end;
+}
+
+.logo {
+  padding: 0 40px;
+}
+
+.logo img {
+  width: 200px;
+  display: block;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #222;
+  font-family: var(--font-secondaryHead);
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #0066cc;
+}

@@ -1,0 +1,21 @@
+.website {
+  width: min(100% - 40px, 1500px);
+  min-height: 100vh;
+  margin-inline: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .website {
+    width: calc(100% - 32px);
+  }
+}
+
+@media (max-width: 768px) {
+  .website {
+    width: calc(100% - 10px);
+    min-height: 100vh;
+  }
+}
