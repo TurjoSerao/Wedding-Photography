@@ -5,15 +5,13 @@ import "./mainLayout.css";
 
 function MainLayout() {
   return (
-    <div className="website">
+    <>
       <Header />
-
       <main>
         <Outlet />
       </main>
-
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  background: #f8f8f8;
+}
+
+.footer-content {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  color: #2d2d2d;
+}
+.social-icons {
+  padding: 20px 0;
+}
+
+.social-icons svg {
+  font-size: 30px;
+  transition: 0.3s;
+  color: #b58b61;
+}
