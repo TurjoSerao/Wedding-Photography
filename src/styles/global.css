@@ -2,3 +2,6 @@
   width: min(100% - 40px, 1500px);
   margin-inline: auto;
 }
+
+.btn-primary {
+}
