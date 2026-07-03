@@ -3,5 +3,35 @@
   margin-inline: auto;
 }
 
+.sub-heading {
+  font-family: var(--font-body);
+  color: #bba085;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .btn-primary {
+  background-color: #e9e1d9;
+  padding: 10px 20px;
+  font-family: var(--font-body);
+  font-size: 22px;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-primary:hover {
+  background-color: #e9e1d985;
+}
+
+@media (max-width: 768px) {
+  .btn-primary {
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+  .sub-heading {
+    font-size: 20px;
+  }
 }

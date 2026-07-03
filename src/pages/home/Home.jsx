@@ -1,5 +1,14 @@
 import "./home.css";
-import { vector, author, quote, flowerUnderline } from "./images";
+import {
+  vector,
+  author,
+  quote,
+  flowerUnderline,
+  service1,
+  service2,
+  service3,
+  hero,
+} from "./images";
 
 function Home() {
   return (
@@ -18,7 +27,7 @@ function Home() {
         <div className="container">
           <div className="award-content">
             <img src={vector} alt="" />
-            <h3>AWARD WINNING PHOTOGRAPHY</h3>
+            <p className="sub-heading">AWARD WINNING PHOTOGRAPHY</p>
             <h2>
               Showcasing your big day in a memorable and unforgettable way.
             </h2>
@@ -48,6 +57,60 @@ function Home() {
             </p>
             <img src={flowerUnderline} alt="" />
             <button className="btn-primary">Learn More</button>
+          </div>
+        </div>
+      </section>
+      {/* services */}
+      <section className="services">
+        <div className="container">
+          <div className="service-content">
+            <p className="sub-heading">Services</p>
+            <h2>What I Offer</h2>
+            {/* cards */}
+            <div className="service-cards">
+              <div className="card">
+                <img src={service1} alt="" />
+                <h5>Wedding</h5>
+                <p>Per Session</p>
+                <p className="price">$2999</p>
+                <button className="btn-primary">More Details</button>
+              </div>
+              <div className="card">
+                <img src={service2} alt="" />
+                <h5>Portrait</h5>
+                <p>Per Session</p>
+                <p className="price">$399</p>
+                <button className="btn-primary">More Details</button>
+              </div>
+              <div className="card">
+                <img src={service3} alt="" />
+                <h5>Engagement</h5>
+                <p>Per Session</p>
+                <p className="price">$1999</p>
+                <button className="btn-primary">More Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* cta */}
+      {/* CTA Section */}
+      <section className="cta-section">
+        <div className="cta-image">
+          <img src={hero} alt="Wedding Couple" />
+        </div>
+
+        <div className="cta-content">
+          <div className="cta-card">
+            <img src={vector} alt="" className="cta-icon" />
+
+            <h3>Creative, Passionate, Artistic</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Dignissim consectetur
+              tristique purus vehicula felis velit ac. Tempus velit morbi
+              accumsan.
+            </p>
           </div>
         </div>
       </section>
