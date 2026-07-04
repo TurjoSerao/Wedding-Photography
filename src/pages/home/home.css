@@ -140,6 +140,7 @@
 .card {
   background-color: #f8f8f8;
   padding: 60px;
+  width: 370px;
 }
 
 .service-cards {
@@ -170,10 +171,7 @@
   padding-bottom: 20px;
 }
 
-/* hero-home section */
-/* ==========================
-   CTA SECTION
-========================== */
+/* CTA SECTION*/
 
 .cta-section {
   display: flex;
@@ -200,7 +198,6 @@
   background: #f8f8f8;
 
   position: relative;
-
   display: flex;
   align-items: center;
 }
@@ -209,19 +206,12 @@
 
 .cta-card {
   position: absolute;
-
   left: -160px;
-
-  width: 500px;
-
+  width: 400px;
   background: #fff;
-
   padding: 60px;
-
-  border: 1px solid #e6e6e6;
-
+  border: 1px solid #bba085;
   text-align: center;
-
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
 }
 
@@ -246,6 +236,25 @@
   line-height: 1.8;
 
   color: #555;
+}
+
+/* featured Portfolio */
+.portfolio {
+  margin: 80px 40px 80px 0;
+}
+.portfolio-card {
+  background-color: #f8f8f8;
+}
+.portfolio-content {
+  display: flex;
+}
+
+.portfolio-card {
+  flex: 3;
+  padding: 20px 40px;
+}
+.portfolio-image {
+  flex: 7;
 }
 
 @media (max-width: 768px) {

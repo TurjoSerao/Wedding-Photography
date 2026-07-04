@@ -8,6 +8,8 @@ import {
   service2,
   service3,
   hero,
+  portfolio1,
+  portfolio2,
 } from "./images";
 
 function Home() {
@@ -93,7 +95,6 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* cta */}
       {/* CTA Section */}
       <section className="cta-section">
         <div className="cta-image">
@@ -103,14 +104,31 @@ function Home() {
         <div className="cta-content">
           <div className="cta-card">
             <img src={vector} alt="" className="cta-icon" />
-
             <h3>Creative, Passionate, Artistic</h3>
-
             <p>
               Lorem ipsum dolor sit amet consectetur. Dignissim consectetur
               tristique purus vehicula felis velit ac. Tempus velit morbi
               accumsan.
             </p>
+          </div>
+        </div>
+      </section>
+      {/* portfolio section */}
+      <section className="portfolio">
+        <p className="sub-heading">PORTFOLIO</p>
+        <h2>Featured Story</h2>
+        <div className="portfolio-content">
+          <div className="portfolio-card">
+            <h2>01</h2>
+            <p>Ricardo & Michelle</p>
+            <p>
+              Lorem ipsum dolor sit amet consecte Dignissim consectetur
+              tristique purus vehicula felis velit.
+            </p>
+          </div>
+          <div className="portfolio-image">
+            <img src={portfolio1} alt="" />
+            <img src={portfolio2} alt="" />
           </div>
         </div>
       </section>
