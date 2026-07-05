@@ -244,7 +244,7 @@
 }
 .portfolio-heading {
   text-align: center;
-  padding-bottom: 80px;
+  padding: 80px;
 }
 .portfolio-card {
   background-color: #f8f8f8;
@@ -366,6 +366,20 @@
 
     max-width: 500px;
 
+    padding: 40px;
+  }
+  .portfolio-image {
+    flex-direction: column;
+  }
+  .portfolio-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px;
+  }
+  .portfolio {
+    margin: 0;
+  }
+  .portfolio-heading {
     padding: 40px;
   }
 }
