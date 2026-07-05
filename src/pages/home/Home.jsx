@@ -115,15 +115,19 @@ function Home() {
       </section>
       {/* portfolio section */}
       <section className="portfolio">
-        <p className="sub-heading">PORTFOLIO</p>
-        <h2>Featured Story</h2>
+        <div className="portfolio-heading">
+          <p className="sub-heading">PORTFOLIO</p>
+          <h2>Featured Story</h2>
+        </div>
         <div className="portfolio-content">
           <div className="portfolio-card">
             <h2>01</h2>
-            <p>Ricardo & Michelle</p>
+            <h4>Ricardo & Michelle</h4>
             <p>
               Lorem ipsum dolor sit amet consecte Dignissim consectetur
-              tristique purus vehicula felis velit.
+              tristique purus vehicula felis velit.Lorem ipsum dolor sit amet
+              consecte Dignissim consectetur tristique purus vehicula felis
+              velit.
             </p>
           </div>
           <div className="portfolio-image">
